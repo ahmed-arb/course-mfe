@@ -27,7 +27,7 @@ const Home = () => {
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 4, sm: 8, md: 12 }}
         >
-          {courses.map((item) => (
+          {courses?.map((item) => (
             <Grid item xs={2} sm={4} md={4} key={item.id}>
               <Card sx={{ maxWidth: 300 }}>
                 <CardMedia

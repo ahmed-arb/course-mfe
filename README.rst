@@ -9,8 +9,6 @@ This repository is a Open edX micro-frontend to display courses list.
 
 **Installation and Startup**
 
-In the following steps, replace "frontend-template-application' with the name of the repo you created when copying this template above.
-
 1. Clone your new repo:
 
   ``git clone https://github.com/ahmed-arb/course-mfe.git``
@@ -42,7 +40,7 @@ the sections - this helps out all developers understand your MFE, how to install
 Project Structure
 -----------------
 
-The source for this project is organized into nested submodules according to the ADR `Feature-based Application Organization <https://github.com/openedx/frontend-template-application/blob/master/docs/decisions/0002-feature-based-application-organization.rst>`_.
+The source for this project is organized into nested submodules according to the ADR `Feature-based Application Organization <https://github.com/openedx/course-mfe/blob/master/docs/decisions/0002-feature-based-application-organization.rst>`_.
 
 Build Process Notes
 -------------------

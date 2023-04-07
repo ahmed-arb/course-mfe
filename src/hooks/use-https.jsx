@@ -21,6 +21,7 @@ const useHttp = () => {
       setIsLoading(false);
     } catch (err) {
       toast.error(err.message || "Something went wrong!");
+      setIsLoading(false)
       setError(err.message || "Something went wrong!");
     }
   }, []);
